@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/intro-desarrollo/clase_6_css/img/bg-palm.jpg");
+    background-size: cover;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nombre_card{
+    text-align: center;
+}
+
+.lista_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.lista_card li{
+    list-style: none;
+}
+
+.lista_card li a img{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+.link_card{
+    background-color: #f0f8ff;
+    color: #000000;
+    padding: 15px 200px;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.footer_card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

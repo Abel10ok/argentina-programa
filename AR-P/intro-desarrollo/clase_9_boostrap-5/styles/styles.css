@@ -1,0 +1,33 @@
+body{
+    font-size: 28px;
+    color: #22193f;
+    background-color:  #22193F;
+    background-image: url("/AR-P/intro-desarrollo/clase_9_boostrap-5/img/ondas.svg");
+    background-repeat: no-repeat;
+    background-size: 3900px;
+}
+
+
+.login_img{
+    height: 500px;
+    background-image: url("/AR-P/intro-desarrollo/clase_9_boostrap-5/img/img-login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.login_img_blanco{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.contain_form{
+    background-color: white;
+}
+
+.contrasenia{
+    font-size: 10px;
+    color: red;
+}
+

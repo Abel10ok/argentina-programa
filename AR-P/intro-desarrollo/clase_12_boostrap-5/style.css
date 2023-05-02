@@ -1,0 +1,94 @@
+#navegacion {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #aca4cf;
+}
+body {
+    background-color:#bebefa85 ;
+}
+
+#linkNav {
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+#linkNav:hover {
+    font-size: 36px;
+    text-shadow: 2px 1px white;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h6 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+label, .textoFormulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.botonCTA{
+    border:1px solid #434097;
+    box-shadow: 1px 1px grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.botonCTA:hover{
+    background-color: #2c288c;
+    color:white;
+}
+
+input {
+    border-style: none;
+    border: 1px solid grey;
+}
+
+.bordeForm {
+    border: 2px double #2c288c;
+}
+
+#pieDePagina {
+    background-color:#aca4cf ;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.parrafoPieDePagina ,#parrafoPieDePagina{
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#contacto {
+    margin-left: -80px;
+    margin-top: -10px;
+    line-height: 1;
+}
+
+#copy {
+    background-color: #2c288c;
+}
+#copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+/* .color1 { #434097 };
+.color2 { #f48cc4 };
+.color3 { #2c288c };
+.color4 { #5d5da4 };
+.color5 { #aca4cf }; */
